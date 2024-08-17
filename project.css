@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+   body { 
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-series;
+    font-size: x-large;
+   .header { 
+    background-color: rgb(50, 134, 223);
+    border: 4px#000000 solid
+    display: flex;
+    justify-items:picture-in-picture;
+    padding: 10px 50px;
+    
+    }
+    .header-links a { 
+     color: antiquewhite;
+     padding: 5px 50px;
+     text-decoration: none;
+     border-radius: 15px;
+
+
+    }
+    .header-links a:hover { 
+      color: rgb(42, 56, 66);
+      
+
+    }
+   .header-links button{  
+    color: #f0f0f0; 
+    background-color: crimson;
+    border:none
+    padding: 5px 30px
+   }
+   .header-links button:hover { 
+    color: rgb(124, 94, 110);
+    
+   } 
+   
+
+   }
+   .landing-page{   
+
+      background-color: rgb(50, 134, 223);
+      display: flex;
+    
+    padding: 50px 50px; 
+      align-items: center;
+      color: #f0f0f0; }
+      .landing-page-search input{ 
+        border-radius: 50px;
+        outline: auto;
+
+      }
+      .landing-page-search button{
+        position: absolute;
+        left: x;
+        background-color: crimson;
+        height: 30px;
+        border-radius: 30px;
+      
+      }
+      .img1{
+        border-radius: 50px;
+        width: 200px;
+        float: right;
+
+      }
+
+}
+    </style>
+  </head>
+<body>
+  <div class =header> 
+    <img src="C:\Users\ahmed\Desktop\images\download.jpeg" >
+    <div class="header-links">
+      <a href="#"> home</a>
+      <a href="#">our shop</a>
+      <a href="#">contact</a>
+      <a href="#"> About</a>
+      <button>sign in </button>
+    </div>
+  </div>
+ 
+    
+  <!--landing page-->
+  <div class = "landing-page">
+    <div>
+    <span>welcome to our store</span>
+    <h1>best store ever</h1>
+    <p>santaa gaming is free bootstrap 5 html
+       css website template for your gaming website. </p>
+       <div class = "landing-page-search">
+        <input type="text">
+       <button>search</button>
+       </div>
+       <div class ="img1">
+        <img src="C:\Users\ahmed\Desktop\images\360_F_732322771_oLiV8JB26jjOpqBN2i5ymWphFY1OO9mc.jpg"> 
+        </div>
+    
+    
+   
+  </div>
+  </div>
+
+ 
+</body>
